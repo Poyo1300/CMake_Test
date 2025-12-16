@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED/UnitTest-b12d07c_tests.cmake")
-  include("C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED/UnitTest-b12d07c_tests.cmake")
-else()
-  add_test(UnitTest_NOT_BUILT-b12d07c UnitTest_NOT_BUILT-b12d07c)
-endif()
