@@ -1,7 +1,14 @@
 {
   "OutputFoldersPerTargetSystem": {
     "Local Machine": [
-      "..\\..\\..\\Desktop\\CMake_Exo\\out\\build"
+      "out\\build\\x64-debug",
+      "out\\install\\x64-debug",
+      "out\\build\\x64-release",
+      "out\\install\\x64-release",
+      "out\\build\\x86-debug",
+      "out\\install\\x86-debug",
+      "out\\build\\x86-release",
+      "out\\install\\x86-release"
     ]
   },
   "ExpandedNodes": [
@@ -9,6 +16,6 @@
     "\\CATCH2MYBELOVED",
     "\\Doxygen"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\Doxygen",
   "PreviewInSolutionExplorer": false
 }
