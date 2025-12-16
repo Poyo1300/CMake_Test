@@ -27,5 +27,5 @@ CPMADDPACKAGE(
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory ("CMake_Lib")
-add_subdirectory ("CMake_Exo")
+add_subdirectory ("CMake_Test")
 add_subdirectory ("CATCH2MYBELOVED")

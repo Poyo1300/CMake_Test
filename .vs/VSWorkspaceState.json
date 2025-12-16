@@ -1,15 +1,14 @@
 {
   "OutputFoldersPerTargetSystem": {
     "Local Machine": [
-      "out\\build"
+      "..\\..\\..\\Desktop\\CMake_Exo\\out\\build"
     ]
   },
   "ExpandedNodes": [
     "",
     "\\CATCH2MYBELOVED",
-    "\\CMake_Exo",
-    "\\CMake_Exo\\source",
     "\\Doxygen"
   ],
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
