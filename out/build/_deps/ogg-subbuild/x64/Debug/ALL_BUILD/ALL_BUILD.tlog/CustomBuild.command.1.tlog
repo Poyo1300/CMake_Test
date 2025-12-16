@@ -1,0 +1,10 @@
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild -BC:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

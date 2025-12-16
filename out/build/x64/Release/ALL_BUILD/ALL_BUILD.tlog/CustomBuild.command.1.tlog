@@ -1,0 +1,10 @@
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo -BC:/Users/l.duret/Desktop/CMake_Exo/out/build --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

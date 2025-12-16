@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\source\CMake_Exo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include\CMake_Exo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{81810E6C-ECF4-3491-BEA4-292E6C77677A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DD685D8-AA66-3659-9737-3337C808A633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D45F4B0C-8E67-388E-9210-96BC387E546D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CMake_Exo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMake_Exo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMake_Exo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMake_Exo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMake_Exo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=C:/Users/l.duret/.conan2/p/b/sfml07016460b09c1/p/bin;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMake_Exo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMake_Exo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMake_Exo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMake_Exo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\_deps\sfml-build\lib\Debug\sfml-network-s-d.lib;..\_deps\sfml-build\lib\Debug\sfml-graphics-s-d.lib;..\_deps\sfml-build\lib\Debug\sfml-window-s-d.lib;..\_deps\sfml-build\lib\Debug\sfml-audio-s-d.lib;..\_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;..\_deps\catch2-build\src\Debug\Catch2Maind.lib;..\CMake_Lib\Debug\CMake_Lib.lib;ws2_32.lib;opengl32.lib;gdi32.lib;..\_deps\sfml-build\lib\Debug\freetyped.lib;winmm.lib;..\_deps\sfml-build\lib\Debug\vorbisfiled.lib;..\_deps\sfml-build\lib\Debug\vorbisencd.lib;..\_deps\sfml-build\lib\Debug\vorbisd.lib;..\_deps\sfml-build\lib\Debug\FLACd.lib;..\_deps\sfml-build\lib\Debug\oggd.lib;..\_deps\catch2-build\src\Debug\Catch2d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/Debug/CMake_Exo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/Debug/CMake_Exo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\_deps\sfml-build\lib\Release\sfml-network-s.lib;..\_deps\sfml-build\lib\Release\sfml-graphics-s.lib;..\_deps\sfml-build\lib\Release\sfml-window-s.lib;..\_deps\sfml-build\lib\Release\sfml-audio-s.lib;..\_deps\sfml-build\lib\Release\sfml-system-s.lib;..\_deps\catch2-build\src\Release\Catch2Main.lib;..\CMake_Lib\Release\CMake_Lib.lib;ws2_32.lib;opengl32.lib;gdi32.lib;..\_deps\sfml-build\lib\Release\freetype.lib;winmm.lib;..\_deps\sfml-build\lib\Release\vorbisfile.lib;..\_deps\sfml-build\lib\Release\vorbisenc.lib;..\_deps\sfml-build\lib\Release\vorbis.lib;..\_deps\sfml-build\lib\Release\FLAC.lib;..\_deps\sfml-build\lib\Release\ogg.lib;..\_deps\catch2-build\src\Release\Catch2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/Release/CMake_Exo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/Release/CMake_Exo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\_deps\sfml-build\lib\MinSizeRel\sfml-network-s.lib;..\_deps\sfml-build\lib\MinSizeRel\sfml-graphics-s.lib;..\_deps\sfml-build\lib\MinSizeRel\sfml-window-s.lib;..\_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.lib;..\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;..\_deps\catch2-build\src\MinSizeRel\Catch2Main.lib;..\CMake_Lib\MinSizeRel\CMake_Lib.lib;ws2_32.lib;opengl32.lib;gdi32.lib;..\_deps\sfml-build\lib\MinSizeRel\freetype.lib;winmm.lib;..\_deps\sfml-build\lib\MinSizeRel\vorbisfile.lib;..\_deps\sfml-build\lib\MinSizeRel\vorbisenc.lib;..\_deps\sfml-build\lib\MinSizeRel\vorbis.lib;..\_deps\sfml-build\lib\MinSizeRel\FLAC.lib;..\_deps\sfml-build\lib\MinSizeRel\ogg.lib;..\_deps\catch2-build\src\MinSizeRel\Catch2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/MinSizeRel/CMake_Exo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/MinSizeRel/CMake_Exo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-src\include;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-src\src\catch2\..;C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\generated-includes;C:\Users\l.duret\Desktop\CMake_Exo\CMake_Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\_deps\sfml-build\lib\RelWithDebInfo\sfml-network-s.lib;..\_deps\sfml-build\lib\RelWithDebInfo\sfml-graphics-s.lib;..\_deps\sfml-build\lib\RelWithDebInfo\sfml-window-s.lib;..\_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.lib;..\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;..\_deps\catch2-build\src\RelWithDebInfo\Catch2Main.lib;..\CMake_Lib\RelWithDebInfo\CMake_Lib.lib;ws2_32.lib;opengl32.lib;gdi32.lib;..\_deps\sfml-build\lib\RelWithDebInfo\freetype.lib;winmm.lib;..\_deps\sfml-build\lib\RelWithDebInfo\vorbisfile.lib;..\_deps\sfml-build\lib\RelWithDebInfo\vorbisenc.lib;..\_deps\sfml-build\lib\RelWithDebInfo\vorbis.lib;..\_deps\sfml-build\lib\RelWithDebInfo\FLAC.lib;..\_deps\sfml-build\lib\RelWithDebInfo\ogg.lib;..\_deps\catch2-build\src\RelWithDebInfo\Catch2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/RelWithDebInfo/CMake_Exo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/RelWithDebInfo/CMake_Exo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/l.duret/Desktop/CMake_Exo/CMake_Exo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo -BC:/Users/l.duret/Desktop/CMake_Exo/out/build --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config-version.cmake;C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/l.duret/Desktop/CMake_Exo/CMake_Exo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo -BC:/Users/l.duret/Desktop/CMake_Exo/out/build --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config-version.cmake;C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/l.duret/Desktop/CMake_Exo/CMake_Exo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo -BC:/Users/l.duret/Desktop/CMake_Exo/out/build --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config-version.cmake;C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/l.duret/Desktop/CMake_Exo/CMake_Exo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo -BC:/Users/l.duret/Desktop/CMake_Exo/out/build --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/CMake_Exo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config-version.cmake;C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMakeFiles\pkgRedirects\sfml-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Exo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\source\CMake_Exo.cpp" />
+    <ClInclude Include="C:\Users\l.duret\Desktop\CMake_Exo\CMake_Exo\include\CMake_Exo.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\ZERO_CHECK.vcxproj">
+      <Project>{859DAE06-787B-36A3-A9F2-7E07CDF1C08A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\CMake_Lib\CMake_Lib.vcxproj">
+      <Project>{CC088E77-D0E0-3FD3-B65F-1A94CB9FC1F5}</Project>
+      <Name>CMake_Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\src\Catch2.vcxproj">
+      <Project>{8d538cbe-01bf-4a2e-a98a-6c368fdf13d7}</Project>
+      <Name>Catch2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\catch2-build\src\Catch2WithMain.vcxproj">
+      <Project>{8bd3552a-2cfb-4a59-ab15-2031b97ada1e}</Project>
+      <Name>Catch2WithMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\flac-build\src\libFLAC\FLAC.vcxproj">
+      <Project>{CB1D9979-EB75-3226-B0F8-FB1FA06E4C7E}</Project>
+      <Name>FLAC</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\freetype-build\freetype.vcxproj">
+      <Project>{915756A9-C224-345A-92E3-C688B9E62B15}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-build\ogg.vcxproj">
+      <Project>{F907671D-014F-35AC-BFD1-AB12FC6EC73D}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{143F67B3-21A1-3971-AB78-54B7733B1DD4}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{1BA75A18-A8FB-3156-8018-84C131548668}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{A8F11CE1-5F19-3D57-A06F-9D36226F1F17}</Project>
+      <Name>sfml-network</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{4397220E-2CAF-329A-B8E7-891476C9547A}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{EFC8DF13-FEAA-34BB-9264-B36D911A0608}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\vorbis-build\lib\vorbis.vcxproj">
+      <Project>{C8B7007A-2397-3D90-A4BE-E1890199E5F1}</Project>
+      <Name>vorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\vorbis-build\lib\vorbisenc.vcxproj">
+      <Project>{4EA1DFFB-F07D-3C77-B394-C7EDE7095812}</Project>
+      <Name>vorbisenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\vorbis-build\lib\vorbisfile.vcxproj">
+      <Project>{B381D806-70E7-307D-BB9C-8D05799A371C}</Project>
+      <Name>vorbisfile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

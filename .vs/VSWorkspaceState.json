@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\CATCH2MYBELOVED",
+    "\\CMake_Exo",
+    "\\CMake_Exo\\source",
+    "\\Doxygen"
+  ],
+  "PreviewInSolutionExplorer": false
+}

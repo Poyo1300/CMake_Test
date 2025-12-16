@@ -1,0 +1,7 @@
+add_test( [==[Factorials are computed]==] C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED/Release/UnitTest.exe [==[Factorials are computed]==]  )
+set_tests_properties( [==[Factorials are computed]==] PROPERTIES WORKING_DIRECTORY C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED)
+add_test( [==[Simple addition checks]==] C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED/Release/UnitTest.exe [==[Simple addition checks]==]  )
+set_tests_properties( [==[Simple addition checks]==] PROPERTIES WORKING_DIRECTORY C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED)
+add_test( [==[Scenario: Les vectors peuvent etre dimensionnes et resize ]==] C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED/Release/UnitTest.exe [==[Scenario: Les vectors peuvent etre dimensionnes et resize ]==]  )
+set_tests_properties( [==[Scenario: Les vectors peuvent etre dimensionnes et resize ]==] PROPERTIES WORKING_DIRECTORY C:/Users/l.duret/Desktop/CMake_Exo/out/build/CATCH2MYBELOVED)
+set( UnitTest_TESTS [==[Factorials are computed]==] [==[Simple addition checks]==] [==[Scenario: Les vectors peuvent etre dimensionnes et resize ]==])

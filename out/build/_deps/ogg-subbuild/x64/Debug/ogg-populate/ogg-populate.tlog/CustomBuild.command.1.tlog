@@ -1,0 +1,154 @@
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/tmp/ogg-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/tmp/ogg-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/tmp/ogg-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-PATCH.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DOGG_DIR=C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-src -P C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/sfml-src/tools/ogg/PatchOgg.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\17E1FAB7BDF51C60C178C1AE55E8A5FC\OGG-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\l.duret\Desktop\CMake_Exo\out\build\_deps\ogg-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\3902999A3431F011AA4E63709EE37D0B\OGG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/Debug/ogg-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/Debug/ogg-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\87A904C255AE074C1FE8ECF9BCD92ED0\OGG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\L.DURET\DESKTOP\CMAKE_EXO\OUT\BUILD\_DEPS\OGG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild -BC:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild --check-stamp-file C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

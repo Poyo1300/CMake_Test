@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/87a904c255ae074c1fe8ecf9bcd92ed0/ogg-populate.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/3902999a3431f011aa4e63709ee37d0b/ogg-populate-complete.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-build.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-configure.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-download.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-install.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-mkdir.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-patch.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-test.rule
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/ogg-subbuild/CMakeFiles/17e1fab7bdf51c60c178c1ae55e8a5fc/ogg-populate-update.rule

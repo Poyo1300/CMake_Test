@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/66520179d55e89e91ff0c14ee49c526a/vorbis-populate.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/467a730dfb54e32a2e826c69d8934e03/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/vorbis-subbuild/CMakeFiles/ad35147cf0d6496c7bc9efcf65d69f0a/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}

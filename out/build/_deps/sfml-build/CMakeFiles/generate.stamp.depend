@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/sfml-src/CMakeLists.txt
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/sfml-src/cmake/Config.cmake
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/sfml-src/cmake/Mesa3D.cmake
+C:/Users/l.duret/Desktop/CMake_Exo/out/build/_deps/sfml-src/cmake/SFMLConfig.cmake.in
